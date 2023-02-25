@@ -86,7 +86,7 @@ nav {
   border-radius: 10px;
   }
  
-.card-active {
+.card-active  {
   width: 20%;
   height: 250px;
   background-color: transparent;
@@ -259,7 +259,7 @@ margin-bottom: 15px;
   background-color: #5a31fc;
  }
 
- .download-content {
+.download-content {
    margin-left: 90px;
    margin-top: 150px;
  }
@@ -330,6 +330,10 @@ margin-bottom: 15px;
   margin: 20px;
 }
 
+.list li:nth-child(1) {
+  margin-left: 60px;
+}
+
 .footerright {
   margin-top: 80px;
   margin-right: 60px ;
@@ -343,6 +347,7 @@ margin-bottom: 15px;
 .logos-list {
   display: flex;
   flex-direction: row;
+  margin-left: 50px;
 } 
 .footer-right {
   margin-left: 60px;
@@ -378,4 +383,332 @@ margin-bottom: 15px;
   margin-top: 20px;
 }
 
+/* Responsiveness Design */
+
+@media screen and (max-width: 1420px) {
+  
+  .download-email {
+    margin-left: 600px;
+    margin-bottom: 50px;
+    margin-top: -65px;
+  }
+  
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: -10px;
+    width: 2200px;
+    }
+
+}
+
+@media screen and (max-width: 1376px) {
+  
+  .card-body {
+    color: #000;
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  
+  .faq-content h4:nth-child(2) {
+    font-size: 13px;
+    font: small;
+    color: gray;
+    margin-top: -30px;
+   }
+  
+   .faq-content h4:nth-child(3) {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: sans-serif;
+   }
+
+   .blog-cards {
+    margin-left: -450px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+  
+  .header-image {
+    height : 420px;
+  }
+  
+  .faq-content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    }
+  
+  .faq-content h4:nth-child(2) {
+    font-size: 9px;
+   }
+  
+   .faq-content h4:nth-child(3) {
+    font-size: 12px;
+  }
+
+   .blog-cards {
+    margin-left: -480px;
+    }
+
+    .faq-content button {
+      color: #fff;
+      border: none;
+      box-shadow: 10px 10px 50px rgb(209, 205, 205);
+      padding: 9px 15px;
+      font-size: 10px;
+      border-radius: 5px;
+      background-color: #5a31fc;
+     }
+
+     .download-email input {
+      font-size: 15px;
+      color: #000;
+      font-family: sans-serif;
+      padding: 12px 200px 14px 30px;
+      background-color: #dfe2eb;
+      border-radius: 40px;
+      border: none;
+      font: bold;
+    }
+    
+    .download-email button {
+      background-color: #5a31fc;
+      color: #fff;
+      padding: 10px 40px;
+      border-radius: 30px;
+      font-size: 15px;
+      font-family: serif;
+      border: none;
+      margin-left: -150px;
+    }
+    
+    .download-email {
+      margin-left: 500px;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+
+  .header-text h2 {
+    font-size: 21px;
+  }
+
+  .header-text p {
+    font-size: 10px;
+  }
+
+  .header-image {
+    height : 320px;
+  }
+
+  .faq-content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    }
+  
+  .faq-content h4:nth-child(2) {
+    font-size: 9px;
+   }
+  
+   .faq-content h4:nth-child(3) {
+    font-size: 12px;
+   }
+
+   .blog-cards {
+    margin-left: -580px;
+    }
+
+    .card-body {
+      font-size: 9px;
+    }
+
+    .card-head-active {
+      font-size: 18px;
+    }
+
+    .card-head {
+      font-size: 18px;
+    }
+
+    .faq-content button {
+      padding: 9px 15px;
+      font-size: 10px;
+      }
+
+     .download-email input {
+      font-size: 15px;
+      padding: 12px 100px 14px 15px;
+    }
+    
+    .download-email button {
+      padding: 10px 20px;
+      font-size: 15px;
+      margin-left: -110px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+  .download-email {
+    margin-left: 400px;
+   }
+
+   .blog-cards {
+    margin-left: -700px;
+    }
+
+    .card-logo {
+      height: 25px;
+     }
+ 
+     .card-head-active {
+       font-size: 15px;
+     }
+ 
+     .endbutton {
+       display: none;
+     }
+
+     .faq-section .faq-content {
+      position: relative;
+      z-index: 2;
+    }
+    .faq-section .faq-image {
+      opacity: .1;
+      z-index: 1;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .companies {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      text-align: center;
+      margin-left: 0px;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 45%;
+      }
+
+    .card-active {
+      width: 45%;
+    }
+
+    .card-logo {
+      height: 50px;
+    }
+    
+    .card-head-active {
+      font-size: 18px;
+    }
+
+    .card-head {
+      font-size: 18px;
+    }
+
+    .card-body {
+      font-size: 13px;
+    }
+
+    .api-heading {
+      margin-left: 0px;
+      text-align: center;
+    }
+
+    .blog-heading h2 {
+      font-size: 15px;
+      margin-top: 25px;
+      margin-bottom: 100px;
+    }
+
+    .blog-heading h1 {
+      font-size: 15px;
+    }
+
+  .blog-cards {
+      margin-left: -750px;
+      }
+
+  .blog-card {
+        height: 286.50px;
+        width: 28%;
+        display: flex;
+        flex-direction: row;
+      }
+  .list {
+        margin-left: -100px;
+      }  
+
+  .logos-list {
+        margin-left: 0px;
+      } 
+}
+
+@media screen and (max-width:730px) {
+  .nav-item {
+    display: none;
+  }
+  .header-image {
+    display: none;
+  }
+  .nav-item-active {
+    margin-right: 0px;
+   }
+  .blog-cards {
+    margin-left: -650px;
+    width: 1700px;
+    }
+  .blog-image {
+    width: 180px;
+    }
+  .blog-bottom{
+    margin-left: -500px;
+    }
+  .download-email {
+    margin-left: 40px;
+    margin-top: 50px;
+    }
+  .footer-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 250px;
+      background-color: #5a31fc;
+      margin-top: 130px;
+    } 
+  .footer-logo {
+      margin-left: 50px;
+    }
+    .list {
+      margin-left: -150px;
+    } 
+  .footerright {
+      margin-top: 0px;
+    }
+  .footer-left {
+      margin-top: 40px;
+     }
+}
 
